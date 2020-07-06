@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: :XingAPI_And_v1.0.0:@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8fa3d31f1f20d36bad9e2047ce250730/jetified-XingAPI_And_v1.0.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8fa3d31f1f20d36bad9e2047ce250730/jetified-XingAPI_And_v1.0.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8fa3d31f1f20d36bad9e2047ce250730/jetified-XingAPI_And_v1.0.0/jars/libs/KofiaSDK_v1.2.1.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8fa3d31f1f20d36bad9e2047ce250730/jetified-XingAPI_And_v1.0.0/jars/libs/SignKorea-Android.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8fa3d31f1f20d36bad9e2047ce250730/jetified-XingAPI_And_v1.0.0/jars/libs/WKKCrypto.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/64e658309e9fb8494426cfb1e6df493a/jetified-XingAPI_And_v1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/64e658309e9fb8494426cfb1e6df493a/jetified-XingAPI_And_v1.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/64e658309e9fb8494426cfb1e6df493a/jetified-XingAPI_And_v1.0.0/jars/libs/KofiaSDK_v1.2.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/64e658309e9fb8494426cfb1e6df493a/jetified-XingAPI_And_v1.0.0/jars/libs/SignKorea-Android.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/64e658309e9fb8494426cfb1e6df493a/jetified-XingAPI_And_v1.0.0/jars/libs/WKKCrypto.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

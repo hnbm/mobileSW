@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/APITEST.iml" filepath="$PROJECT_DIR$/APITEST.iml" group="APITEST" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="APITEST/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MobileSW_BOOST.iml" filepath="$PROJECT_DIR$/.idea/modules/MobileSW_BOOST.iml" group="MobileSW_BOOST" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="MobileSW_BOOST/app" />
     </modules>
   </component>
 </project>

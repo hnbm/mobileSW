@@ -59,7 +59,8 @@ class MainView : AppCompatActivity() , ActivityCompat.OnRequestPermissionsResult
         Triple(R.id.navi_1,"시간대별",R.drawable.l_icon_01),
         Triple(R.id.navi_4,"매수매도",R.drawable.l_icon_01),
         Triple(R.id.navi_6,"주문",R.drawable.l_icon_01),
-        Triple(R.id.navi_8,"잔고",R.drawable.l_icon_01)
+        Triple(R.id.navi_8,"잔고",R.drawable.l_icon_01),
+        Triple(R.id.navi_news,"경제기사",R.drawable.l_icon_01)
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -93,7 +94,7 @@ class MainView : AppCompatActivity() , ActivityCompat.OnRequestPermissionsResult
             subviewlst.get(1),
             subviewlst.get(2),
             subviewlst.get(3),
-//            subviewlst.get(4),
+            subviewlst.get(4),
             Triple(R.id.navi_webview,"WebPage",R.drawable.l_icon_01)
         )
 
@@ -161,10 +162,15 @@ class MainView : AppCompatActivity() , ActivityCompat.OnRequestPermissionsResult
                 fragment = s1010()
                 title = subviewlst.get(3).second;
             }
-//            subviewlst.get(4).first->{
-//                fragment = news()
-//                title = subviewlst.get(4).second;
-//            }
+            subviewlst.get(4).first->{
+                fragment = news()
+                title = subviewlst.get(4).second;
+            }
+            R.id.navi_webview->{
+                val intent = Intent(this, WebViewActivity::class.java)
+                startActivity(intent)
+                return
+            }
         }
 
         subviewlst.forEach {
